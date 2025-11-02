@@ -18,6 +18,42 @@ public class Uni5Exe15 {
         scanner.close();
     }
 }
-// Teste de mesa 1: entradas Maria 6 10 e João 4 8 final fim
-// Teste de mesa 2: entrada único aluno Ana 7 7 final fim
-// Teste de mesa 3: entrada fim direto sem alunos
+/*
+Teste de Mesa 1:
+Entrada:
+"Maria" 6 10 "Joao" 4 8 "fim"
+
+Passo a passo:
+Leitura 1 → nome = "Maria" → notas 6 e 10 → media = (6 + 10) / 2 = 8.00 → imprime "A media do(a) Maria e 8.00"
+Leitura 2 → nome = "Joao" → notas 4 e 8 → media = 6.00 → imprime "A media do(a) Joao e 6.00"
+Leitura 3 → nome = "fim" → encerra o laço
+
+Saída:
+A media do(a) Maria e 8.00
+A media do(a) Joao e 6.00
+
+---------------------------------------------------
+
+Teste de Mesa 2:
+Entrada:
+"Ana" 7 7 "fim"
+
+Passo a passo:
+Primeira leitura → nome = "Ana" → media = (7 + 7) / 2 = 7.00
+Próxima leitura → nome = "fim" → termina o processamento
+
+Saída:
+A media do(a) Ana e 7.00
+
+---------------------------------------------------
+
+Teste de Mesa 3:
+Entrada:
+"fim"
+
+Passo a passo:
+Primeira leitura já é "fim" → laço while é encerrado imediatamente
+
+Saída:
+(nenhuma linha é impressa)
+*/

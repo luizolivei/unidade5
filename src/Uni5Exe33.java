@@ -38,6 +38,63 @@ public class Uni5Exe33 {
         scanner.close();
     }
 }
-// Teste de mesa 1: votos 1 2 3 4 5 6 0 computa totais 1 cada percentual 33.33
-// Teste de mesa 2: insercao de opcao 7 mostra mensagem de erro
-// Teste de mesa 3: somente nulos e brancos calcula percentual 100%
+/*
+Teste de Mesa 1:
+Entrada:
+1, 2, 3, 4, 5, 6, 0
+
+Passo a passo:
+Opções 1 a 4 incrementam votos dos candidatos
+Opção 5 incrementa nulos, opção 6 incrementa brancos
+Entrada 0 encerra
+TotalVotos = 6 → percentual de brancos e nulos = (1 + 1) / 6 * 100 ≈ 33.33%
+
+Saída:
+Total de votos para o candidato 1: 1
+Total de votos para o candidato 2: 1
+Total de votos para o candidato 3: 1
+Total de votos para o candidato 4: 1
+Total de votos nulos: 1
+Total de votos em branco: 1
+Percentual de brancos e nulos sobre o total: 33.33%
+
+---------------------------------------------------
+
+Teste de Mesa 2:
+Entrada:
+7, 1, 0
+
+Passo a passo:
+Opção 7 → mensagem "Opcao incorreta" → nenhum contador alterado
+Opção 1 → candidato 1 recebe +1
+Entrada 0 encerra → totalVotos = 1
+
+Saída:
+Opcao incorreta
+Total de votos para o candidato 1: 1
+Total de votos para o candidato 2: 0
+Total de votos para o candidato 3: 0
+Total de votos para o candidato 4: 0
+Total de votos nulos: 0
+Total de votos em branco: 0
+Percentual de brancos e nulos sobre o total: 0.00%
+
+---------------------------------------------------
+
+Teste de Mesa 3:
+Entrada:
+5, 6, 6, 5, 0
+
+Passo a passo:
+Dois votos nulos e dois em branco → totalVotos = 4 → candidatos recebem 0
+Percentual de brancos e nulos = 4/4 * 100 = 100%
+
+Saída:
+Total de votos para o candidato 1: 0
+Total de votos para o candidato 2: 0
+Total de votos para o candidato 3: 0
+Total de votos para o candidato 4: 0
+Total de votos nulos: 2
+Total de votos em branco: 2
+Percentual de brancos e nulos sobre o total: 100.00%
+*/

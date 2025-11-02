@@ -27,6 +27,48 @@ public class Uni5Exe19 {
         scanner.close();
     }
 }
-// Teste de mesa 1: compras 600 400 200 750 0 totais 480 340 170 600 soma 1590
-// Teste de mesa 2: compra unica 300 desconto 45 total 255
-// Teste de mesa 3: compra 0 inicial total recebido 0
+/*
+Teste de Mesa 1:
+Entrada:
+600.00, 400.00, 200.00, 750.00, 0
+
+Passo a passo:
+Compra 1 → valor > 500 → desconto = 20% → pagar = 600 - 120 = 480 → totalRecebido = 480
+Compra 2 → valor <= 500 → desconto = 15% → pagar = 400 - 60 = 340 → totalRecebido = 820
+Compra 3 → pagar = 200 - 30 = 170 → totalRecebido = 990
+Compra 4 → pagar = 750 - 150 = 600 → totalRecebido = 1590
+Entrada 0 encerra
+
+Saída:
+Valor a pagar: R$480.00
+Valor a pagar: R$340.00
+Valor a pagar: R$170.00
+Valor a pagar: R$600.00
+O valor total recebido foi de R$1590.00
+
+---------------------------------------------------
+
+Teste de Mesa 2:
+Entrada:
+300.00, 0
+
+Passo a passo:
+Compra única → desconto = 45.00 → pagar = 255.00 → totalRecebido = 255.00
+Entrada 0 encerra
+
+Saída:
+Valor a pagar: R$255.00
+O valor total recebido foi de R$255.00
+
+---------------------------------------------------
+
+Teste de Mesa 3:
+Entrada:
+0
+
+Passo a passo:
+Laço é encerrado imediatamente → totalRecebido permanece 0
+
+Saída:
+O valor total recebido foi de R$0.00
+*/

@@ -44,6 +44,47 @@ public class Uni5Exe17 {
         scanner.close();
     }
 }
-// Teste de mesa 1: inscricoes 125 1.85, 248 1.58, 102 1.67, 300 1.90, 0 resultados conforme exemplo
-// Teste de mesa 2: um atleta 10 1.70 e zero final
-// Teste de mesa 3: nenhum atleta entrada 0
+/*
+Teste de Mesa 1:
+Entrada:
+(125, 1.85), (248, 1.58), (102, 1.67), (300, 1.90), 0
+
+Passo a passo:
+Atleta 125 → primeiro registro → mais baixo = 1.85 (inscrição 125), mais alto = 1.85 (inscrição 125), soma = 1.85
+Atleta 248 → altura 1.58 → atualiza mais baixo para 1.58 (inscrição 248), mais alto permanece 1.85 (125), soma = 3.43
+Atleta 102 → altura 1.67 → não altera extremos → soma = 5.10
+Atleta 300 → altura 1.90 → atualiza mais alto para 1.90 (inscrição 300), soma = 7.00
+Leitura 0 → encerra → média = 7.00 / 4 = 1.75
+
+Saída:
+O atleta mais baixo tem 1.58m e o seu numero de inscricao e 248
+O atleta mais alto tem 1.90m e o seu numero de inscricao e 300
+A altura media do grupo de atletas e: 1.75
+
+---------------------------------------------------
+
+Teste de Mesa 2:
+Entrada:
+(10, 1.70), 0
+
+Passo a passo:
+Primeiro atleta define mais baixo e mais alto como 1.70 → soma = 1.70 → quantidade = 1
+Entrada 0 encerra → média = 1.70
+
+Saída:
+O atleta mais baixo tem 1.70m e o seu numero de inscricao e 10
+O atleta mais alto tem 1.70m e o seu numero de inscricao e 10
+A altura media do grupo de atletas e: 1.70
+
+---------------------------------------------------
+
+Teste de Mesa 3:
+Entrada:
+0
+
+Passo a passo:
+Nenhum atleta informado → quantidade = 0 → imprime mensagem padrão
+
+Saída:
+Nenhum atleta informado
+*/

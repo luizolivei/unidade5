@@ -24,6 +24,49 @@ public class Uni5Exe07 {
         scanner.close();
     }
 }
-// Teste de mesa 1: n=3 valores 1.0 5.0 2.0 maior=5.0 menor=1.0
-// Teste de mesa 2: n=1 valor 7.5 maior=7.5 menor=7.5
-// Teste de mesa 3: n=4 valores -1 -5 -2 -3 maior=-1 menor=-5
+/*
+Teste de Mesa 1:
+Entrada:
+quantidade = 3
+valores = [1.00, 5.00, 2.00]
+
+Passo a passo:
+Iteração 1 → numero = 1.00 → maior = 1.00, menor = 1.00
+Iteração 2 → numero = 5.00 → maior atualizado para 5.00, menor continua 1.00
+Iteração 3 → numero = 2.00 → maior permanece 5.00, menor permanece 1.00
+
+Saída:
+Maior numero: 5.00
+Menor numero: 1.00
+
+---------------------------------------------------
+
+Teste de Mesa 2:
+Entrada:
+quantidade = 1
+valores = [7.50]
+
+Passo a passo:
+Iteração única → numero = 7.50 → maior e menor recebem 7.50
+
+Saída:
+Maior numero: 7.50
+Menor numero: 7.50
+
+---------------------------------------------------
+
+Teste de Mesa 3:
+Entrada:
+quantidade = 4
+valores = [-1.00, -5.00, -2.00, -3.00]
+
+Passo a passo:
+Iteração 1 → maior = -1.00, menor = -1.00
+Iteração 2 → numero = -5.00 → menor atualizado para -5.00
+Iteração 3 → numero = -2.00 → maior permanece -1.00, menor -5.00
+Iteração 4 → numero = -3.00 → variáveis não se alteram
+
+Saída:
+Maior numero: -1.00
+Menor numero: -5.00
+*/
