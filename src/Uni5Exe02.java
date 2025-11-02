@@ -15,17 +15,18 @@ public class Uni5Exe02 {
         System.out.println("Soma dos numeros impares: " + somaImpares);
     }
 }
+
 /*
 Teste de Mesa 1:
 Entrada:
 nenhuma (o intervalo 1 a 100 é fixo)
 
 Passo a passo:
-i = 1 → 1 é ímpar → somaImpares passa de 0 para 1
-i = 2 → 2 é par → somaPares passa de 0 para 2
-i = 3 → 3 é ímpar → somaImpares passa de 1 para 4
+i = 1 -> 1 é ímpar -> somaImpares passa de 0 para 1
+i = 2 -> 2 é par -> somaPares passa de 0 para 2
+i = 3 -> 3 é ímpar -> somaImpares passa de 1 para 4
 ...
-i = 100 → 100 é par → somaPares passa de 2450 para 2550 (valor final após todas as iterações)
+i = 100 -> 100 é par -> somaPares passa de 2450 para 2550 (valor final após todas as iterações)
 
 Saída:
 Soma dos numeros pares: 2550

@@ -28,7 +28,7 @@ massaInicial = 1.0
 Passo a passo:
 tempo começa em 0, massaAtual = 1.0
 Cada iteração divide massaAtual por 2 e soma 50 segundos
-Quantidade de divisões até massaAtual < 0.0005 → 11 vezes
+Quantidade de divisões até massaAtual < 0.0005 -> 11 vezes
 tempo final = 11 * 50 = 550 segundos
 massaAtual ≈ 0.000488
 
@@ -44,8 +44,8 @@ Entrada:
 massaInicial = 0.0004
 
 Passo a passo:
-massaAtual < 0.0005 → o while não executa
-tempo permanece 0 → massaAtual segue 0.0004
+massaAtual < 0.0005 -> o while não executa
+tempo permanece 0 -> massaAtual segue 0.0004
 
 Saída:
 Massa inicial: 0.0004 kg
@@ -59,10 +59,10 @@ Entrada:
 massaInicial = 0.5
 
 Passo a passo:
-Iteração 1 → massaAtual = 0.25 → tempo = 50
-Iteração 2 → massaAtual = 0.125 → tempo = 100
+Iteração 1 -> massaAtual = 0.25 -> tempo = 50
+Iteração 2 -> massaAtual = 0.125 -> tempo = 100
 ... continua até massaAtual < 0.0005 (10 divisões no total)
-tempo final = 500 segundos → massaAtual ≈ 0.000488
+tempo final = 500 segundos -> massaAtual ≈ 0.000488
 
 Saída:
 Massa inicial: 0.5000 kg

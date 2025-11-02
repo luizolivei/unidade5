@@ -34,9 +34,9 @@ reabastecimentos = 3
 paradas = [(120 km, 10 L), (150 km, 15 L), (200 km, 20 L)]
 
 Passo a passo:
-Parada 1 → eficiência = 120 / 10 = 12.00 → totalQuilometros = 120 → totalCombustivel = 10
-Parada 2 → eficiência = 150 / 15 = 10.00 → acumulados: 270 km e 25 L
-Parada 3 → eficiência = 200 / 20 = 10.00 → acumulados: 470 km e 45 L
+Parada 1 -> eficiência = 120 / 10 = 12.00 -> totalQuilometros = 120 -> totalCombustivel = 10
+Parada 2 -> eficiência = 150 / 15 = 10.00 -> acumulados: 270 km e 25 L
+Parada 3 -> eficiência = 200 / 20 = 10.00 -> acumulados: 470 km e 45 L
 Média geral = 470 / 45 ≈ 10.44
 
 Saída:
@@ -53,7 +53,7 @@ reabastecimentos = 1
 parada = [(100 km, 5 L)]
 
 Passo a passo:
-Parada única → eficiência = 20.00 → totalQuilometros = 100 → totalCombustivel = 5
+Parada única -> eficiência = 20.00 -> totalQuilometros = 100 -> totalCombustivel = 5
 Média geral = 100 / 5 = 20.00
 
 Saída:
@@ -68,8 +68,8 @@ reabastecimentos = 2
 paradas = [(0 km, 5 L), (200 km, 10 L)]
 
 Passo a passo:
-Parada 1 → eficiência = 0 / 5 = 0.00 → totais: 0 km, 5 L
-Parada 2 → eficiência = 200 / 10 = 20.00 → totais: 200 km, 15 L
+Parada 1 -> eficiência = 0 / 5 = 0.00 -> totais: 0 km, 5 L
+Parada 2 -> eficiência = 200 / 10 = 20.00 -> totais: 200 km, 15 L
 Média geral = 200 / 15 ≈ 13.33
 
 Saída:

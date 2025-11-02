@@ -39,9 +39,9 @@ Entrada:
 Sequência: ("D", "E") repetido 19 vezes, seguido de "D", "D"
 
 Passo a passo:
-Após 38 lançamentos alternados → placar 19 x 19
-39º lançamento "D" → pontosDireita = 20 → diferença = 1 → jogo continua
-40º lançamento "D" → pontosDireita = 21 → diferença = 2 e pontosDireita >= 21 → laço encerra
+Após 38 lançamentos alternados -> placar 19 x 19
+39º lançamento "D" -> pontosDireita = 20 -> diferença = 1 -> jogo continua
+40º lançamento "D" -> pontosDireita = 21 -> diferença = 2 e pontosDireita >= 21 -> laço encerra
 
 Saída:
 Vencedor: Jogador da direita
@@ -53,9 +53,9 @@ Entrada:
 Sequência: ("D", "E") repetido 20 vezes, seguido de "E", "E"
 
 Passo a passo:
-Após 40 lançamentos → placar 20 x 20
-41º lançamento "E" → pontosEsquerda = 21 → diferença = 1
-42º lançamento "E" → pontosEsquerda = 22 → diferença = 2 e pontosEsquerda >= 21 → jogo encerra
+Após 40 lançamentos -> placar 20 x 20
+41º lançamento "E" -> pontosEsquerda = 21 -> diferença = 1
+42º lançamento "E" -> pontosEsquerda = 22 -> diferença = 2 e pontosEsquerda >= 21 -> jogo encerra
 
 Saída:
 Vencedor: Jogador da esquerda
@@ -67,9 +67,9 @@ Entrada:
 Sequência: ("D", "E") repetido 21 vezes, seguido de "D", "D"
 
 Passo a passo:
-Após 42 lançamentos → placar 21 x 21
-43º lançamento "D" → pontosDireita = 22 → diferença = 1
-44º lançamento "D" → pontosDireita = 23 → diferença = 2 e pontosDireita >= 21 → encerra
+Após 42 lançamentos -> placar 21 x 21
+43º lançamento "D" -> pontosDireita = 22 -> diferença = 1
+44º lançamento "D" -> pontosDireita = 23 -> diferença = 2 e pontosDireita >= 21 -> encerra
 
 Saída:
 Vencedor: Jogador da direita

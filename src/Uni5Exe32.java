@@ -40,7 +40,7 @@ primeiroDia = 3 (terça-feira), numeroDias = 31
 
 Passo a passo:
 Imprime cabeçalho "D  S  T  Q  Q  S  S"
-posicaoSemana = 1 → imprime dois espaços (para domingo e segunda)
+posicaoSemana = 1 -> imprime dois espaços (para domingo e segunda)
 Preenche dias de 1 a 31 distribuindo três linhas completas e uma parcial
 
 Saída (trecho):
@@ -58,7 +58,7 @@ Entrada:
 primeiroDia = 1 (domingo), numeroDias = 30
 
 Passo a passo:
-Nenhum espaço inicial → dia 1 começa na primeira coluna
+Nenhum espaço inicial -> dia 1 começa na primeira coluna
 Imprime quatro linhas completas e uma parcial com o dia 30
 
 Saída (trecho):

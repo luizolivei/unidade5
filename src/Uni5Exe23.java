@@ -33,11 +33,11 @@ public class Uni5Exe23 {
 /*
 Teste de Mesa 1:
 Entrada:
-"Ana" 2 → (10.00, 3) (5.00, 2) → "n"
+"Ana" 2 -> (10.00, 3) (5.00, 2) -> "n"
 
 Passo a passo:
-Produto 1 → totalVendas += 10 * 3 = 30
-Produto 2 → totalVendas += 5 * 2 = 10 → totalVendas = 40
+Produto 1 -> totalVendas += 10 * 3 = 30
+Produto 2 -> totalVendas += 5 * 2 = 10 -> totalVendas = 40
 salario = 40 * 0.3 = 12
 Resposta "n" encerra o laço
 
@@ -50,11 +50,11 @@ Salario: R$12.00
 
 Teste de Mesa 2:
 Entrada:
-"Bruno" 1 → (50.00, 1) → "s" → "Carla" 2 → (20.00, 2) (15.00, 1) → "n"
+"Bruno" 1 -> (50.00, 1) -> "s" -> "Carla" 2 -> (20.00, 2) (15.00, 1) -> "n"
 
 Passo a passo:
-Bruno → totalVendas = 50 → salario = 15 → resposta "s" continua
-Carla → totalVendas = 20*2 + 15*1 = 55 → salario = 16.50 → resposta "n" encerra
+Bruno -> totalVendas = 50 -> salario = 15 -> resposta "s" continua
+Carla -> totalVendas = 20*2 + 15*1 = 55 -> salario = 16.50 -> resposta "n" encerra
 
 Saída:
 Nome: Bruno
@@ -68,11 +68,11 @@ Salario: R$16.50
 
 Teste de Mesa 3:
 Entrada:
-"Diego" 0 → "n"
+"Diego" 0 -> "n"
 
 Passo a passo:
-Como produtos = 0 → o laço interno não soma nada → totalVendas = 0
-salario = 0 * 0.3 = 0 → resposta "n" encerra
+Como produtos = 0 -> o laço interno não soma nada -> totalVendas = 0
+salario = 0 * 0.3 = 0 -> resposta "n" encerra
 
 Saída:
 Nome: Diego

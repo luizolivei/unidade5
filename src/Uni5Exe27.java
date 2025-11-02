@@ -65,17 +65,17 @@ public class Uni5Exe27 {
 /*
 Teste de Mesa 1:
 Entrada:
-Funcionario 1 → dia = 10, producaoManha = 60, producaoTarde = 50 → resposta = 1
-Funcionario 2 → dia = 20, producaoManha = 40, producaoTarde = 30 → resposta = 2
+Funcionario 1 -> dia = 10, producaoManha = 60, producaoTarde = 50 -> resposta = 1
+Funcionario 2 -> dia = 20, producaoManha = 40, producaoTarde = 30 -> resposta = 2
 
 Passo a passo:
-Funcionario 1: dia válido (≤ 15), producaoTotal = 110 (> 100) e ambos os turnos ≥ 30 → valorRecebido = 110 * 0.8 = 88.00
-Maior produção passa a 110 no dia 10 → totalManha = 60, totalTarde = 50
-Pergunta final recebe resposta 1 → outro funcionário é lido
-Funcionario 2: dia = 20 (> 15) → valorRecebido = 40 * 0.4 + 30 * 0.3 = 25.00
-Maior produção continua sendo 110 (dia 10) → totalManha = 100, totalTarde = 80
+Funcionario 1: dia válido (≤ 15), producaoTotal = 110 (> 100) e ambos os turnos ≥ 30 -> valorRecebido = 110 * 0.8 = 88.00
+Maior produção passa a 110 no dia 10 -> totalManha = 60, totalTarde = 50
+Pergunta final recebe resposta 1 -> outro funcionário é lido
+Funcionario 2: dia = 20 (> 15) -> valorRecebido = 40 * 0.4 + 30 * 0.3 = 25.00
+Maior produção continua sendo 110 (dia 10) -> totalManha = 100, totalTarde = 80
 Resposta 2 encerra o laço
-Comparação final → totalManha (100) maior que totalTarde (80)
+Comparação final -> totalManha (100) maior que totalTarde (80)
 
 Saída:
 R$ 88.00
@@ -89,12 +89,12 @@ Periodo com maior producao: manha 100
 
 Teste de Mesa 2:
 Entrada:
-Funcionario 1 → dia = 32 (inválido), dia = 5 (válido), producaoManha = 20, producaoTarde = 25 → resposta = 2
+Funcionario 1 -> dia = 32 (inválido), dia = 5 (válido), producaoManha = 20, producaoTarde = 25 -> resposta = 2
 
 Passo a passo:
 Primeira leitura do dia (32) imprime "Dia invalido" e repete a leitura até receber 5
-Como producaoTotal = 45 ≤ 100 → valorRecebido = 45 * 0.5 = 22.50
-totalManha = 20, totalTarde = 25 → período com maior produção = tarde 25
+Como producaoTotal = 45 ≤ 100 -> valorRecebido = 45 * 0.5 = 22.50
+totalManha = 20, totalTarde = 25 -> período com maior produção = tarde 25
 
 Saída:
 Dia invalido
@@ -107,11 +107,11 @@ Periodo com maior producao: tarde 25
 
 Teste de Mesa 3:
 Entrada:
-Funcionario 1 → dia = 18, producaoManha = 25, producaoTarde = 35 → resposta = 2
+Funcionario 1 -> dia = 18, producaoManha = 25, producaoTarde = 35 -> resposta = 2
 
 Passo a passo:
-Dia > 15 → valorRecebido = 25 * 0.4 + 35 * 0.3 = 10.0 + 10.5 = 20.50
-Maior produção = 60 no dia 18 → totalManha = 25, totalTarde = 35 → período com maior produção = tarde 35
+Dia > 15 -> valorRecebido = 25 * 0.4 + 35 * 0.3 = 10.0 + 10.5 = 20.50
+Maior produção = 60 no dia 18 -> totalManha = 25, totalTarde = 35 -> período com maior produção = tarde 35
 Resposta 2 encerra imediatamente
 
 Saída:

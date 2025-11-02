@@ -25,7 +25,7 @@ linhas = 1
 
 Passo a passo:
 numeroAtual inicia em 1
-Linha 1 → coluna 1 → imprime "1 " → numeroAtual passa para 2 → quebra de linha
+Linha 1 -> coluna 1 -> imprime "1 " -> numeroAtual passa para 2 -> quebra de linha
 
 Saída:
 1
@@ -37,9 +37,9 @@ Entrada:
 linhas = 3
 
 Passo a passo:
-Linha 1 → imprime "1 "
-Linha 2 → imprime "2 3 "
-Linha 3 → imprime "4 5 6 "
+Linha 1 -> imprime "1 "
+Linha 2 -> imprime "2 3 "
+Linha 3 -> imprime "4 5 6 "
 Após cada linha ocorre System.out.println()
 
 Saída:

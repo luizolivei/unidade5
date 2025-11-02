@@ -24,9 +24,9 @@ Entrada:
 "Maria" 6 10 "Joao" 4 8 "fim"
 
 Passo a passo:
-Leitura 1 → nome = "Maria" → notas 6 e 10 → media = (6 + 10) / 2 = 8.00 → imprime "A media do(a) Maria e 8.00"
-Leitura 2 → nome = "Joao" → notas 4 e 8 → media = 6.00 → imprime "A media do(a) Joao e 6.00"
-Leitura 3 → nome = "fim" → encerra o laço
+Leitura 1 -> nome = "Maria" -> notas 6 e 10 -> media = (6 + 10) / 2 = 8.00 -> imprime "A media do(a) Maria e 8.00"
+Leitura 2 -> nome = "Joao" -> notas 4 e 8 -> media = 6.00 -> imprime "A media do(a) Joao e 6.00"
+Leitura 3 -> nome = "fim" -> encerra o laço
 
 Saída:
 A media do(a) Maria e 8.00
@@ -39,8 +39,8 @@ Entrada:
 "Ana" 7 7 "fim"
 
 Passo a passo:
-Primeira leitura → nome = "Ana" → media = (7 + 7) / 2 = 7.00
-Próxima leitura → nome = "fim" → termina o processamento
+Primeira leitura -> nome = "Ana" -> media = (7 + 7) / 2 = 7.00
+Próxima leitura -> nome = "fim" -> termina o processamento
 
 Saída:
 A media do(a) Ana e 7.00
@@ -52,7 +52,7 @@ Entrada:
 "fim"
 
 Passo a passo:
-Primeira leitura já é "fim" → laço while é encerrado imediatamente
+Primeira leitura já é "fim" -> laço while é encerrado imediatamente
 
 Saída:
 (nenhuma linha é impressa)

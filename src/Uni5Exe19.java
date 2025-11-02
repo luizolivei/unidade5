@@ -33,10 +33,10 @@ Entrada:
 600.00, 400.00, 200.00, 750.00, 0
 
 Passo a passo:
-Compra 1 → valor > 500 → desconto = 20% → pagar = 600 - 120 = 480 → totalRecebido = 480
-Compra 2 → valor <= 500 → desconto = 15% → pagar = 400 - 60 = 340 → totalRecebido = 820
-Compra 3 → pagar = 200 - 30 = 170 → totalRecebido = 990
-Compra 4 → pagar = 750 - 150 = 600 → totalRecebido = 1590
+Compra 1 -> valor > 500 -> desconto = 20% -> pagar = 600 - 120 = 480 -> totalRecebido = 480
+Compra 2 -> valor <= 500 -> desconto = 15% -> pagar = 400 - 60 = 340 -> totalRecebido = 820
+Compra 3 -> pagar = 200 - 30 = 170 -> totalRecebido = 990
+Compra 4 -> pagar = 750 - 150 = 600 -> totalRecebido = 1590
 Entrada 0 encerra
 
 Saída:
@@ -53,7 +53,7 @@ Entrada:
 300.00, 0
 
 Passo a passo:
-Compra única → desconto = 45.00 → pagar = 255.00 → totalRecebido = 255.00
+Compra única -> desconto = 45.00 -> pagar = 255.00 -> totalRecebido = 255.00
 Entrada 0 encerra
 
 Saída:
@@ -67,7 +67,7 @@ Entrada:
 0
 
 Passo a passo:
-Laço é encerrado imediatamente → totalRecebido permanece 0
+Laço é encerrado imediatamente -> totalRecebido permanece 0
 
 Saída:
 O valor total recebido foi de R$0.00

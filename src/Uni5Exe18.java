@@ -45,10 +45,10 @@ Entrada:
 (4, 3), (5, 2), (9, 4), (12, 1), 0
 
 Passo a passo:
-Canal 4 → totalPorCanal[0] = 3 → totalPessoas = 3
-Canal 5 → totalPorCanal[1] = 2 → totalPessoas = 5
-Canal 9 → totalPorCanal[2] = 4 → totalPessoas = 9
-Canal 12 → totalPorCanal[3] = 1 → totalPessoas = 10
+Canal 4 -> totalPorCanal[0] = 3 -> totalPessoas = 3
+Canal 5 -> totalPorCanal[1] = 2 -> totalPessoas = 5
+Canal 9 -> totalPorCanal[2] = 4 -> totalPessoas = 9
+Canal 12 -> totalPorCanal[3] = 1 -> totalPessoas = 10
 Percentuais: 30%, 20%, 40%, 10%
 
 Saída:
@@ -64,9 +64,9 @@ Entrada:
 (4, 5), (7, 10), 0
 
 Passo a passo:
-Canal 4 → soma 5 pessoas
-Canal 7 → não está na lista → é ignorado → totalPessoas permanece 5
-Percentuais calculados com base em 5 pessoas → canal 4 recebe 100%, demais 0%
+Canal 4 -> soma 5 pessoas
+Canal 7 -> não está na lista -> é ignorado -> totalPessoas permanece 5
+Percentuais calculados com base em 5 pessoas -> canal 4 recebe 100%, demais 0%
 
 Saída:
 Percentual de audiencia do canal 4: 100.00%
@@ -81,7 +81,7 @@ Entrada:
 0
 
 Passo a passo:
-Nenhum canal informado → totalPessoas = 0 → cada percentual é exibido como 0.00%
+Nenhum canal informado -> totalPessoas = 0 -> cada percentual é exibido como 0.00%
 
 Saída:
 Percentual de audiencia do canal 4: 0.00%

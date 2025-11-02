@@ -50,13 +50,13 @@ Entrada:
 Votos: 1 "s", 2 "s", 3 "n"
 
 Passo a passo:
-Voto 1 → incrementa votos[0]
-Resposta "s" → continua
-Voto 2 → incrementa votos[1]
-Resposta "s" → continua
-Voto 3 → incrementa votos[2]
-Resposta "n" → encerra
-Total de votos válidos = 3 → cada grupo citado tem 1 voto
+Voto 1 -> incrementa votos[0]
+Resposta "s" -> continua
+Voto 2 -> incrementa votos[1]
+Resposta "s" -> continua
+Voto 3 -> incrementa votos[2]
+Resposta "n" -> encerra
+Total de votos válidos = 3 -> cada grupo citado tem 1 voto
 
 Saída:
 Total de votos para Nenhum de Nos: 1
@@ -77,7 +77,7 @@ Votos: 4 "s", 4 "s", 4 "n"
 
 Passo a passo:
 Cada voto incrementa votos[3]
-Total de votos = 3 → percentual de Jota Quest = 100%
+Total de votos = 3 -> percentual de Jota Quest = 100%
 
 Saída:
 Total de votos para Nenhum de Nos: 0
@@ -98,7 +98,7 @@ Voto: 5 "n"
 
 Passo a passo:
 Código 5 não é considerado (intervalo válido é 1 a 4)
-Resposta "n" encerra sem votos válidos → totalVotos = 0
+Resposta "n" encerra sem votos válidos -> totalVotos = 0
 
 Saída:
 Total de votos para Nenhum de Nos: 0

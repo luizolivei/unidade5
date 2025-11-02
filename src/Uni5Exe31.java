@@ -33,11 +33,11 @@ Entrada:
 numero = 180
 
 Passo a passo:
-menorFatorPrimo(180) = 2 → imprime "180 2" → valorAtual = 90
-menorFatorPrimo(90) = 2 → imprime "90 2" → valorAtual = 45
-menorFatorPrimo(45) = 3 → imprime "45 3" → valorAtual = 15
-menorFatorPrimo(15) = 3 → imprime "15 3" → valorAtual = 5
-menorFatorPrimo(5) = 5 → imprime "5 5" → valorAtual = 1 → laço encerra
+menorFatorPrimo(180) = 2 -> imprime "180 2" -> valorAtual = 90
+menorFatorPrimo(90) = 2 -> imprime "90 2" -> valorAtual = 45
+menorFatorPrimo(45) = 3 -> imprime "45 3" -> valorAtual = 15
+menorFatorPrimo(15) = 3 -> imprime "15 3" -> valorAtual = 5
+menorFatorPrimo(5) = 5 -> imprime "5 5" -> valorAtual = 1 -> laço encerra
 Por fim imprime "1"
 
 Saída:
@@ -55,7 +55,7 @@ Entrada:
 numero = 13
 
 Passo a passo:
-menorFatorPrimo(13) = 13 → imprime "13 13" → valorAtual = 1
+menorFatorPrimo(13) = 13 -> imprime "13 13" -> valorAtual = 1
 Laço encerra e imprime "1"
 
 Saída:
@@ -69,10 +69,10 @@ Entrada:
 numero = 100
 
 Passo a passo:
-100 → fator 2 → imprime "100 2" → valorAtual = 50
-50 → fator 2 → imprime "50 2" → valorAtual = 25
-25 → fator 5 → imprime "25 5" → valorAtual = 5
-5 → fator 5 → imprime "5 5" → valorAtual = 1
+100 -> fator 2 -> imprime "100 2" -> valorAtual = 50
+50 -> fator 2 -> imprime "50 2" -> valorAtual = 25
+25 -> fator 5 -> imprime "25 5" -> valorAtual = 5
+5 -> fator 5 -> imprime "5 5" -> valorAtual = 1
 Imprime "1"
 
 Saída:

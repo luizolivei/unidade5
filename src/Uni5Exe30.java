@@ -46,11 +46,11 @@ N = 10, K = 2, M = 15
 
 Passo a passo:
 Lista elementos: [10, 8, 6, 4, 2]
-Adiciona 10 na mochila → somaDentro = 10
-Próximo valor 8 → somaDentro + 8 = 18 > 15 → vai para fora
-Valor 6 → somaDentro + 6 = 16 > 15 → fora
-Valor 4 → somaDentro + 4 = 14 ≤ 15 → dentro
-Valor 2 → somaDentro + 2 = 16 > 15 → fora
+Adiciona 10 na mochila -> somaDentro = 10
+Próximo valor 8 -> somaDentro + 8 = 18 > 15 -> vai para fora
+Valor 6 -> somaDentro + 6 = 16 > 15 -> fora
+Valor 4 -> somaDentro + 4 = 14 ≤ 15 -> dentro
+Valor 2 -> somaDentro + 2 = 16 > 15 -> fora
 SomaDentro = 14, somaFora = 8 + 6 + 2 = 16
 
 Saída:
@@ -68,8 +68,8 @@ N = 20, K = 5, M = 20
 
 Passo a passo:
 Elementos gerados: [20, 15, 10, 5]
-20 → entra → somaDentro = 20
-Demais valores deixariam a soma maior que 20 → ficam fora
+20 -> entra -> somaDentro = 20
+Demais valores deixariam a soma maior que 20 -> ficam fora
 
 Saída:
 Elementos a serem colocados na mochila: [20, 15, 10, 5]
@@ -86,9 +86,9 @@ N = 9, K = 3, M = 50
 
 Passo a passo:
 Elementos: [9, 6, 3]
-Adiciona 9 → somaDentro = 9
-Adiciona 6 → somaDentro = 15
-Adiciona 3 → somaDentro = 18 (permanece ≤ 50)
+Adiciona 9 -> somaDentro = 9
+Adiciona 6 -> somaDentro = 15
+Adiciona 3 -> somaDentro = 18 (permanece ≤ 50)
 Nenhum elemento fica fora
 
 Saída:

@@ -47,7 +47,7 @@ Passo a passo:
 Opções 1 a 4 incrementam votos dos candidatos
 Opção 5 incrementa nulos, opção 6 incrementa brancos
 Entrada 0 encerra
-TotalVotos = 6 → percentual de brancos e nulos = (1 + 1) / 6 * 100 ≈ 33.33%
+TotalVotos = 6 -> percentual de brancos e nulos = (1 + 1) / 6 * 100 ≈ 33.33%
 
 Saída:
 Total de votos para o candidato 1: 1
@@ -65,9 +65,9 @@ Entrada:
 7, 1, 0
 
 Passo a passo:
-Opção 7 → mensagem "Opcao incorreta" → nenhum contador alterado
-Opção 1 → candidato 1 recebe +1
-Entrada 0 encerra → totalVotos = 1
+Opção 7 -> mensagem "Opcao incorreta" -> nenhum contador alterado
+Opção 1 -> candidato 1 recebe +1
+Entrada 0 encerra -> totalVotos = 1
 
 Saída:
 Opcao incorreta
@@ -86,7 +86,7 @@ Entrada:
 5, 6, 6, 5, 0
 
 Passo a passo:
-Dois votos nulos e dois em branco → totalVotos = 4 → candidatos recebem 0
+Dois votos nulos e dois em branco -> totalVotos = 4 -> candidatos recebem 0
 Percentual de brancos e nulos = 4/4 * 100 = 100%
 
 Saída:
