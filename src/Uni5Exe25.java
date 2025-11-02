@@ -33,6 +33,44 @@ public class Uni5Exe25 {
         scanner.close();
     }
 }
-// Teste de mesa 1: sequencia com 21x19 e mais dois pontos direita vence
-// Teste de mesa 2: sequencia onde esquerda abre 22x20 vence esquerda
-// Teste de mesa 3: sequencia alternada chegando a 21x23 vence direita
+/*
+Teste de Mesa 1:
+Entrada:
+Sequência: ("D", "E") repetido 19 vezes, seguido de "D", "D"
+
+Passo a passo:
+Após 38 lançamentos alternados → placar 19 x 19
+39º lançamento "D" → pontosDireita = 20 → diferença = 1 → jogo continua
+40º lançamento "D" → pontosDireita = 21 → diferença = 2 e pontosDireita >= 21 → laço encerra
+
+Saída:
+Vencedor: Jogador da direita
+
+---------------------------------------------------
+
+Teste de Mesa 2:
+Entrada:
+Sequência: ("D", "E") repetido 20 vezes, seguido de "E", "E"
+
+Passo a passo:
+Após 40 lançamentos → placar 20 x 20
+41º lançamento "E" → pontosEsquerda = 21 → diferença = 1
+42º lançamento "E" → pontosEsquerda = 22 → diferença = 2 e pontosEsquerda >= 21 → jogo encerra
+
+Saída:
+Vencedor: Jogador da esquerda
+
+---------------------------------------------------
+
+Teste de Mesa 3:
+Entrada:
+Sequência: ("D", "E") repetido 21 vezes, seguido de "D", "D"
+
+Passo a passo:
+Após 42 lançamentos → placar 21 x 21
+43º lançamento "D" → pontosDireita = 22 → diferença = 1
+44º lançamento "D" → pontosDireita = 23 → diferença = 2 e pontosDireita >= 21 → encerra
+
+Saída:
+Vencedor: Jogador da direita
+*/

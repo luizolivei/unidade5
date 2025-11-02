@@ -44,6 +44,70 @@ public class Uni5Exe28 {
         scanner.close();
     }
 }
-// Teste de mesa 1: votos 1 s 2 s 3 n tot 1 1 1 0 vencedor Nenhum de Nos
-// Teste de mesa 2: todos votos no codigo 4 vencedor Jota Quest
-// Teste de mesa 3: nenhum voto total 0 mensagem de nenhum voto
+/*
+Teste de Mesa 1:
+Entrada:
+Votos: 1 "s", 2 "s", 3 "n"
+
+Passo a passo:
+Voto 1 → incrementa votos[0]
+Resposta "s" → continua
+Voto 2 → incrementa votos[1]
+Resposta "s" → continua
+Voto 3 → incrementa votos[2]
+Resposta "n" → encerra
+Total de votos válidos = 3 → cada grupo citado tem 1 voto
+
+Saída:
+Total de votos para Nenhum de Nos: 1
+Total de votos para CPM22: 1
+Total de votos para Skank: 1
+Total de votos para Jota Quest: 0
+Percentual de votos para Nenhum de Nos: 33.33%
+Percentual de votos para CPM22: 33.33%
+Percentual de votos para Skank: 33.33%
+Percentual de votos para Jota Quest: 0.00%
+Grupo vencedor: Nenhum de Nos
+
+---------------------------------------------------
+
+Teste de Mesa 2:
+Entrada:
+Votos: 4 "s", 4 "s", 4 "n"
+
+Passo a passo:
+Cada voto incrementa votos[3]
+Total de votos = 3 → percentual de Jota Quest = 100%
+
+Saída:
+Total de votos para Nenhum de Nos: 0
+Total de votos para CPM22: 0
+Total de votos para Skank: 0
+Total de votos para Jota Quest: 3
+Percentual de votos para Nenhum de Nos: 0.00%
+Percentual de votos para CPM22: 0.00%
+Percentual de votos para Skank: 0.00%
+Percentual de votos para Jota Quest: 100.00%
+Grupo vencedor: Jota Quest
+
+---------------------------------------------------
+
+Teste de Mesa 3:
+Entrada:
+Voto: 5 "n"
+
+Passo a passo:
+Código 5 não é considerado (intervalo válido é 1 a 4)
+Resposta "n" encerra sem votos válidos → totalVotos = 0
+
+Saída:
+Total de votos para Nenhum de Nos: 0
+Total de votos para CPM22: 0
+Total de votos para Skank: 0
+Total de votos para Jota Quest: 0
+Percentual de votos para Nenhum de Nos: 0.00%
+Percentual de votos para CPM22: 0.00%
+Percentual de votos para Skank: 0.00%
+Percentual de votos para Jota Quest: 0.00%
+Nenhum voto computado
+*/

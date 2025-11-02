@@ -20,6 +20,52 @@ public class Uni5Exe20 {
         scanner.close();
     }
 }
-// Teste de mesa 1: massa 1.0 kg reduz ate <0.0005 resultado tempo 650 segundos
-// Teste de mesa 2: massa 0.0004 kg nao entra no loop tempo 0
-// Teste de mesa 3: massa 0.5 kg tempo 50 massa final 0.25
+/*
+Teste de Mesa 1:
+Entrada:
+massaInicial = 1.0
+
+Passo a passo:
+tempo começa em 0, massaAtual = 1.0
+Cada iteração divide massaAtual por 2 e soma 50 segundos
+Quantidade de divisões até massaAtual < 0.0005 → 11 vezes
+tempo final = 11 * 50 = 550 segundos
+massaAtual ≈ 0.000488
+
+Saída:
+Massa inicial: 1.0000 kg
+Massa final: 0.000488 kg
+Tempo necessario: 550 segundos
+
+---------------------------------------------------
+
+Teste de Mesa 2:
+Entrada:
+massaInicial = 0.0004
+
+Passo a passo:
+massaAtual < 0.0005 → o while não executa
+tempo permanece 0 → massaAtual segue 0.0004
+
+Saída:
+Massa inicial: 0.0004 kg
+Massa final: 0.000400 kg
+Tempo necessario: 0 segundos
+
+---------------------------------------------------
+
+Teste de Mesa 3:
+Entrada:
+massaInicial = 0.5
+
+Passo a passo:
+Iteração 1 → massaAtual = 0.25 → tempo = 50
+Iteração 2 → massaAtual = 0.125 → tempo = 100
+... continua até massaAtual < 0.0005 (10 divisões no total)
+tempo final = 500 segundos → massaAtual ≈ 0.000488
+
+Saída:
+Massa inicial: 0.5000 kg
+Massa final: 0.000488 kg
+Tempo necessario: 500 segundos
+*/

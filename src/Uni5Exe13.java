@@ -27,6 +27,53 @@ public class Uni5Exe13 {
         scanner.close();
     }
 }
-// Teste de mesa 1: 3 paradas 120/10 150/15 200/20 medias 12 10 10 e geral 10.67
-// Teste de mesa 2: 1 parada 100/5 media parada 20 e geral 20
-// Teste de mesa 3: 2 paradas 0/5 e 200/10 media parada 0 e 20 geral 10
+/*
+Teste de Mesa 1:
+Entrada:
+reabastecimentos = 3
+paradas = [(120 km, 10 L), (150 km, 15 L), (200 km, 20 L)]
+
+Passo a passo:
+Parada 1 → eficiência = 120 / 10 = 12.00 → totalQuilometros = 120 → totalCombustivel = 10
+Parada 2 → eficiência = 150 / 15 = 10.00 → acumulados: 270 km e 25 L
+Parada 3 → eficiência = 200 / 20 = 10.00 → acumulados: 470 km e 45 L
+Média geral = 470 / 45 ≈ 10.44
+
+Saída:
+Parada 1: 12.00 km por litro
+Parada 2: 10.00 km por litro
+Parada 3: 10.00 km por litro
+Quilometragem media obtida por litro: 10.44
+
+---------------------------------------------------
+
+Teste de Mesa 2:
+Entrada:
+reabastecimentos = 1
+parada = [(100 km, 5 L)]
+
+Passo a passo:
+Parada única → eficiência = 20.00 → totalQuilometros = 100 → totalCombustivel = 5
+Média geral = 100 / 5 = 20.00
+
+Saída:
+Parada 1: 20.00 km por litro
+Quilometragem media obtida por litro: 20.00
+
+---------------------------------------------------
+
+Teste de Mesa 3:
+Entrada:
+reabastecimentos = 2
+paradas = [(0 km, 5 L), (200 km, 10 L)]
+
+Passo a passo:
+Parada 1 → eficiência = 0 / 5 = 0.00 → totais: 0 km, 5 L
+Parada 2 → eficiência = 200 / 10 = 20.00 → totais: 200 km, 15 L
+Média geral = 200 / 15 ≈ 13.33
+
+Saída:
+Parada 1: 0.00 km por litro
+Parada 2: 20.00 km por litro
+Quilometragem media obtida por litro: 13.33
+*/
