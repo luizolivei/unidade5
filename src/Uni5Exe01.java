@@ -17,7 +17,7 @@ public class Uni5Exe01 {
     }
 }
 /*
-Teste de Mesa 1:
+Teste de Mesa:
 Entrada:
 numeros = [10, 63, 4, 7, 2, ..., 9] (20 valores)
 
