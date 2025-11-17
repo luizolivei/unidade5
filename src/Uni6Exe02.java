@@ -39,3 +39,42 @@ public class Uni6Exe02 {
         }
     }
 }
+
+/*
+Teste de Mesa 1:
+Entrada:
+Valores = [10,20,30,40,50,60,70,80,90,100,110,120]
+
+Passo a passo:
+Soma = 780 -> média = 65
+printGreaterThanAverage imprime números >65 -> 70 a 120
+
+Saída:
+Linhas com 70,80,90,100,110,120
+
+---------------------------------------------------
+
+Teste de Mesa 2:
+Entrada:
+Valores = [5,5,5,5,5,5,5,5,5,5,5,5]
+
+Passo a passo:
+Soma = 60 -> média = 5
+Nenhum valor é maior que a média
+
+Saída:
+Nada é impresso
+
+---------------------------------------------------
+
+Teste de Mesa 3:
+Entrada:
+Valores = [2,4,6,8,10,12,14,16,18,20,22,24]
+
+Passo a passo:
+Soma = 156 -> média = 13
+Valores maiores que 13: 14,16,18,20,22,24
+
+Saída:
+Impressão das seis últimas posições
+*/

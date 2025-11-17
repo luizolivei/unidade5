@@ -72,3 +72,43 @@ public class Uni6Exe08 {
         return -1;
     }
 }
+
+/*
+Teste de Mesa 1:
+Entrada:
+tamanho = 4, pares posição/valor informados: (0,1.0),(1,2.0),(2,2.0),(3,3.0)
+
+Passo a passo:
+fillVector preenche vetor [1.0,2.0,2.0,3.0]
+printFrequencyTable identifica valores únicos 1.0,2.0,3.0 com frequências 1,2,1
+
+Saída:
+Tabela com "Valor | Frequência" seguido das linhas "1.0 | 1", "2.0 | 2", "3.0 | 1"
+
+---------------------------------------------------
+
+Teste de Mesa 2:
+Entrada:
+tamanho = 3, pares = (0,5.5),(0,4.0),(1,4.0),(2,5.5)
+
+Passo a passo:
+Segunda tentativa para posição 0 é ignorada pois já preenchida
+Vetor final = [5.5,4.0,5.5]
+Frequências -> 5.5 ocorre 2 vezes, 4.0 ocorre 1 vez
+
+Saída:
+Linhas: "5.5 | 2" e "4.0 | 1"
+
+---------------------------------------------------
+
+Teste de Mesa 3:
+Entrada:
+tamanho = 2, pares = (1,7.2),(0,7.2)
+
+Passo a passo:
+fillVector resulta [7.2,7.2]
+Somente um valor único -> frequência 2
+
+Saída:
+Tabela com linha única "7.2 | 2"
+*/

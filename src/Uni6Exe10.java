@@ -132,3 +132,49 @@ public class Uni6Exe10 {
         new Uni6Exe10();
     }
 }
+
+/*
+Teste de Mesa 1:
+Entrada:
+Operações: incluir 3 valores (1,2,3), mostrar, sair
+
+Passo a passo:
+Menu 1 chamado três vezes -> vet = [1,2,3]
+Opção 5 percorre e imprime os três valores
+Opção 8 encerra
+
+Saída:
+Confirmações de inclusão, listagem com vet[0] 1, vet[1] 2, vet[2] 3 e mensagem "Encerrando..."
+
+---------------------------------------------------
+
+Teste de Mesa 2:
+Entrada:
+Operações: incluir [10,5,7], ordenar, mostrar, pesquisar 5, excluir 5, mostrar
+
+Passo a passo:
+Após inclusões -> vet = [10,5,7]
+Opção 6 ordena -> [5,7,10]
+Opção 5 mostra nessa ordem
+Pesquisar 5 encontra posição 0
+Excluir remove posição 0 -> vetor passa a [7,10]
+Mostrar imprime dois valores
+
+Saída:
+Mensagens de ordenação implícitas, confirmações de pesquisa/exclusão e listagens correspondentes
+
+---------------------------------------------------
+
+Teste de Mesa 3:
+Entrada:
+Operações: incluir 50 valores até encher, tentar incluir mais um, inverter, mostrar
+
+Passo a passo:
+Após 50 inclusões -> posFim = 50
+Nova tentativa acusa vetor cheio
+Opção 7 inverte a ordem
+Opção 5 mostra os 50 valores na ordem inversa
+
+Saída:
+Confirmações das inclusões, mensagem de vetor cheio, listagem final invertida
+*/

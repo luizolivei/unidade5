@@ -41,3 +41,43 @@ public class Uni6Exe04 {
         System.out.println();
     }
 }
+
+/*
+Teste de Mesa 1:
+Entrada:
+Vetor1 = [1,1,1,1,1,1,1,1,1,1]
+Vetor2 = [2,2,2,2,2,2,2,2,2,2]
+
+Passo a passo:
+sumVectors gera [3,3,...,3]
+printVector exibe vetor1, vetor2 e vetor soma (cada um seguido de linha em branco)
+
+Saída:
+Linhas com dez 1s, linha em branco, dez 2s, linha em branco, dez 3s
+
+---------------------------------------------------
+
+Teste de Mesa 2:
+Entrada:
+Vetor1 = [0,1,2,3,4,5,6,7,8,9]
+Vetor2 = [9,8,7,6,5,4,3,2,1,0]
+
+Passo a passo:
+Somas posição a posição resultam sempre 9
+
+Saída:
+Primeiro vetor crescente, segundo decrescente, terceiro somente 9s
+
+---------------------------------------------------
+
+Teste de Mesa 3:
+Entrada:
+Vetor1 = [-5,-4,-3,-2,-1,0,1,2,3,4]
+Vetor2 = [5,4,3,2,1,0,-1,-2,-3,-4]
+
+Passo a passo:
+Soma em cada índice = 0
+
+Saída:
+Terceiro vetor impresso com zeros
+*/
