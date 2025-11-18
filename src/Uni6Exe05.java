@@ -64,3 +64,49 @@ public class Uni6Exe05 {
         return "Vocês se odeiam!";
     }
 }
+
+/*
+Teste de Mesa 1:
+Entrada:
+Menino = [SIM,SIM,SIM,SIM,SIM]
+Menina = [SIM,SIM,SIM,SIM,SIM]
+
+Passo a passo:
+Todas as respostas iguais -> cada pergunta soma 3 -> afinidade = 15
+determineMessage retorna "Casem!"
+
+Saída:
+"Afinidade: 15" e "Casem!"
+
+---------------------------------------------------
+
+Teste de Mesa 2:
+Entrada:
+Menino = [SIM,NAO,SIM,IND,NAO]
+Menina = [NAO,NAO,IND,IND,SIM]
+
+Passo a passo:
+Q1: SIM x NAO -> -2 (afinidade -2)
+Q2: NAO x NAO -> +3 (afinidade 1)
+Q3: SIM x IND -> +1 (afinidade 2)
+Q4: IND x IND -> +3 (afinidade 5)
+Q5: NAO x SIM -> -2 (afinidade 3)
+Mensagem: "Vale um encontro."
+
+Saída:
+"Afinidade: 3" seguido de "Vale um encontro."
+
+---------------------------------------------------
+
+Teste de Mesa 3:
+Entrada:
+Menino = [IND,IND,IND,IND,IND]
+Menina = [NAO,NAO,NAO,NAO,NAO]
+
+Passo a passo:
+Cada comparação IND vs NAO adiciona 1 -> afinidade final = 5
+Mensagem: "Talvez não dê certo :("
+
+Saída:
+"Afinidade: 5" e texto correspondente
+*/
